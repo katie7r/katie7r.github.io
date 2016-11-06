@@ -1,0 +1,42 @@
+---
+---
+
+img.profile {
+  height: 100px;
+  width: 100px;
+  margin: -100px auto 50px;
+}
+
+img.round {
+  border-radius: 50%;
+}
+
+#experience, #education {
+  header > small {
+    display: block;
+    margin-top: -1em;
+  }
+
+  small {
+    color: inherit;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    // line-height: 1.5em;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    width: 100%;
+
+    li {
+      width: 100%;
+    }
+  }
+}
+
+#bio h2 small {
+  font-size: 0.75em;
+  line-height: initial;
+}

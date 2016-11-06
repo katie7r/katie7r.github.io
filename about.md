@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: astral
 title: About
 permalink: /about/
 ---
