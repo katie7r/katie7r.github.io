@@ -18,6 +18,34 @@ body.html5up-spectral {
     // }
   }
 
+  header#skills {
+    margin-bottom: 1em;
+  }
+
+  section.spotlight .content {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  #experience > section:nth-child(2n) > div > header {
+    margin-left: -26px !important;
+  }
+
+  #experience .spotlight .content header p {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  // #experience .spotlight{
+  //   // &:first-of-type {
+  //   //   background-color: rgba(0, 0, 0, 0.15);
+  //   // }
+  //
+  //   // &:last-of-type {
+  //   //   background-color: rgba(0, 0, 0, 0.375)
+  //   // }
+  // }
+
   #cta .inner {
     p {
       width: 150%;
