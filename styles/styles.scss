@@ -1,6 +1,16 @@
 ---
 ---
 
+body.landing #page-wrapper,
+#main > header,
+body.is-mobile.landing #banner,
+body.is-mobile.landing .wrapper.style4 {
+  // $bg-img: 'leaves';
+  $bg-img: 'potted-succulent';
+
+  background-image: url(../images/unsplash-#{$bg-img}.jpg);
+}
+
 img.profile {
   height: 100px;
   width: 100px;
