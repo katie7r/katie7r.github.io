@@ -1,21 +1,17 @@
 ---
 ---
 
+@import 'spectral';
+
 body.html5up-spectral {
   &.landing {
-    #page-wrapper { // ,
-    // #main > header,
-    // body.is-mobile.landing #banner,
-    // body.is-mobile.landing .wrapper.style4 {
-      $bg-img: 'leaves';
+    #page-wrapper,
+    &.is-mobile #banner,
+    &.is-mobile .wrapper.style4 {
       // $bg-img: 'potted-succulent';
-
+      $bg-img: 'leaves';
       background-image: url(../images/unsplash-#{$bg-img}.jpg);
     }
-
-    // #banner, #cta {
-    //   color: #333; // for light backgrounds
-    // }
   }
 
   header#skills {
@@ -35,16 +31,6 @@ body.html5up-spectral {
     margin-bottom: 0;
     text-transform: uppercase;
   }
-
-  // #experience .spotlight{
-  //   // &:first-of-type {
-  //   //   background-color: rgba(0, 0, 0, 0.15);
-  //   // }
-  //
-  //   // &:last-of-type {
-  //   //   background-color: rgba(0, 0, 0, 0.375)
-  //   // }
-  // }
 
   #cta .inner {
     p {

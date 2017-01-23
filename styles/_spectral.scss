@@ -1,0 +1,190 @@
+// I should probably have just used the .scss files from the
+// template and altered the colors directly in $palette...
+// but this way is fun and educational too.
+
+$bg:					     #2e3842;
+$fg:					     #fff;
+$fg-light:		     rgba(255,255,255,0.5);
+$fg-bold:			     #fff;
+$border:			     #fff;
+$border-bg:		     rgba(144,144,144,0.25);
+$border2:			     #fff;
+$border2-bg:	     rgba(144,144,144,0.5);
+
+$accent1-bg:       #a3a135;
+$accent1-fg:       mix(#a3a135, #ffffff, 25%);
+$accent1-fg-light: mix(#a3a135, #ffffff, 40%);
+$accent1-fg-bold:  #ffffff;
+
+$accent2-bg:       #eeb749;
+$accent3-bg:       #ed9d56;
+$accent4-bg:       #d2bb37;
+
+$accent5-bg:       #e53f55;
+$accent5-fg:       mix(#e53f55, #ffffff, 25%);
+$accent5-fg-light: mix(#e53f55, #ffffff, 40%);
+$accent5-fg-bold:  #ffffff;
+
+$accent6-bg:       #c5254d;
+$accent6-fg-bold:  #ffffff;
+
+// $red:           #c5254d;
+// $red-orange:    #e53f55;
+// $orange:        #f27a5c;
+// $orange-yellow: #ed9d56;
+// $yellow:        #eeb749;
+// $yellow-green:  #d2bb37;
+// $green:         #a3a135;
+// $dark-green:    #5f6b43;
+// $cream:         #d3c6b3;
+
+
+// Spectral Overrides
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 0 0 2px $accent1-bg;
+}
+
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+  box-shadow: 0 0 0 2px $accent1-bg;
+}
+
+.icon.style1 {
+  color: $accent2-bg;
+}
+
+.icon.style2 {
+  color: $accent3-bg;
+}
+
+.icon.style3 {
+  color: $accent4-bg;
+}
+
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+button.special,
+.button.special {
+  background-color: $accent6-bg;
+}
+
+input[type="submit"].special:hover,
+input[type="reset"].special:hover,
+input[type="button"].special:hover,
+button.special:hover,
+.button.special:hover {
+  background-color: lighten($accent6-bg, 5);
+}
+
+input[type="submit"].special:active,
+input[type="reset"].special:active,
+input[type="button"].special:active,
+button.special:active,
+.button.special:active {
+  background-color: darken($accent6-bg, 5);
+}
+
+.features li:before {
+  color: $accent2-bg;
+}
+
+// .wrapper.style1 : accent1
+// .wrapper.style3 : accent5
+
+.wrapper.style1 {
+  background-color: $accent1-bg; // bg
+  color: $accent1-fg; // fg
+}
+
+.wrapper.style1 header p {
+  color: $accent1-fg-light; // fg-light
+}
+
+.wrapper.style1 header.major p {
+  color: $accent1-fg; // fg
+}
+
+.wrapper.style1 input[type="checkbox"] + label,
+.wrapper.style1 input[type="radio"] + label {
+  color: $accent1-fg; // fg
+}
+
+.wrapper.style1 input[type="checkbox"]:checked + label:before,
+.wrapper.style1 input[type="radio"]:checked + label:before {
+  background: $accent1-fg-bold; // fg-bold
+  color: $accent1-bg; // bg
+}
+
+.wrapper.style1 ::-webkit-input-placeholder {
+  color: $accent1-fg-light; // fg-light
+}
+
+.wrapper.style1 :-moz-placeholder {
+  color: $accent1-fg-light; // fg-light
+}
+
+.wrapper.style1 ::-moz-placeholder {
+  color: $accent1-fg-light; // fg-light
+}
+
+.wrapper.style1 :-ms-input-placeholder {
+  color: $accent1-fg-light; // fg-light
+}
+
+.wrapper.style1 .formerize-placeholder {
+  color: $accent1-fg-light; // fg-light
+}
+
+.wrapper.style3 {
+  background-color: $accent5-bg; // bg
+  color: $accent5-fg; // fg
+}
+
+.wrapper.style3 header p {
+  color: $accent5-fg-light; // fg-light
+}
+
+.wrapper.style3 header.major p {
+  color: $accent5-fg; // fg
+}
+
+.wrapper.style3 input[type="checkbox"] + label,
+.wrapper.style3 input[type="radio"] + label {
+  color: $accent5-fg; // fg
+}
+
+.wrapper.style3 input[type="checkbox"]:checked + label:before,
+.wrapper.style3 input[type="radio"]:checked + label:before {
+  background: $accent5-fg-bold ; // fg-bold
+  color: $accent5-bg; // bg
+}
+
+.wrapper.style3 ::-webkit-input-placeholder {
+  color: $accent5-fg-light; // fg-light
+}
+
+.wrapper.style3 :-moz-placeholder {
+  color: $accent5-fg-light; // fg-light
+}
+
+.wrapper.style3 ::-moz-placeholder {
+  color: $accent5-fg-light; // fg-light
+}
+
+.wrapper.style3 :-ms-input-placeholder {
+  color: $accent5-fg-light; // fg-light
+}
+
+.wrapper.style3 .formerize-placeholder {
+  color: $accent5-fg-light; // fg-light
+}
+
+#menu {
+  background: $accent1-bg;
+}
