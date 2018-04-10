@@ -1,0 +1,85 @@
+@mixin slant($color, $coordinates) {
+  background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'><polygon points='" + $coordinates + "' style='fill:" + $color + ";' /></svg>");
+}
+
+@mixin slant-top-up($color) {
+  @include slant($color, '0,0 0,100 100,0');
+}
+@mixin slant-top-down($color) {
+  @include slant($color, '0,0 100,0 100,100');
+}
+@mixin slant-bottom-up($color) {
+  @include slant($color, '0,100 100,0 100,100');
+}
+@mixin slant-bottom-down($color) {
+  @include slant($color, '0,0 0,100 100,100');
+}
+
+@mixin header($color, $height, $slant-height) {
+  #header {
+    background-color: $color;
+    margin-top: -20px;
+    height: $height;
+    width: 100vw;
+
+    &::after {
+      content: '';
+      @include slant-top-up($color);
+      background-size: 100% 100%;
+      position: absolute;
+      // top: calc(#{$height} - 20px);
+      top: $height;
+      height: $slant-height;
+      width: 100vw;
+    }
+
+    h1 {
+      margin: 0;
+    }
+  }
+}
+
+@mixin footer($color, $height, $slant-height) {
+  #footer {
+    background-color: $color;
+    height: $height;
+    width: 100vw;
+
+    &::before {
+      content: '';
+      @include slant-bottom-up($color);
+      background-size: 100% 100%;
+      position: absolute;
+      bottom: $height;
+      height: $slant-height;
+      width: 100vw;
+    }
+  }
+}
+
+body {
+  position: relative;
+
+  #main {
+    min-height: calc(80vh + 20px);
+  }
+
+  &#home {
+    @include header($main, 95vh, 10vh);
+    @include footer($main, 30vh, 10vh);
+
+    #main {
+      height: 100vh;
+    }
+  }
+
+  &#portfolio {
+    @include header($portfolio, 10vh, 5vh);
+    @include footer($portfolio, 10vh, 5vh);
+  }
+
+  &#pysanky {
+    @include header($pysanky, 10vh, 5vh);
+    @include footer($pysanky, 10vh, 5vh);
+  }
+}
