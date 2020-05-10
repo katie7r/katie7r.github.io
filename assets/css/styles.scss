@@ -1,3 +1,12 @@
 ---
 ---
 @import "main";
+
+// TODO: actually update, not override
+
+body.home {
+  #banner .inner h1 {
+    text-align: left;
+    text-align-last: left;
+  }
+}

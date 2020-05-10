@@ -1,4 +1,6 @@
 - name: Home
   link: /
-- name: Work
-  link: /work/
+- name: My Background
+  link: /background/
+- name: My Creations
+  link: /creations/
