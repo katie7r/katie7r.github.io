@@ -1,0 +1,20 @@
+<!-- Header -->
+<header id="header">
+  <span class="logo"><a href="/">Katie <span>(Russ) Linero</span></a></span>
+  <a href="#menu"><span>Menu</span></a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+  <div class="inner">
+    <h2>Menu</h2>
+    <ul class="links">
+      {% for item in site.data.navigation %}
+      <li {% if page.url == item.link %}class="active" {% endif %}>
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="close"><span>Close</span></a>
+  </div>
+</nav>
