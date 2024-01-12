@@ -9,6 +9,16 @@
   --text-color: #4E5157;
   --dot-color: #BADA55; }
 
+.dark-mode {
+  --base-color: #1C1B1D;
+  --base-offset-color: #4E5157;
+  --heading-color: #FFFFFF;
+  --text-color: #EAEAEA; }
+
+.dark-mode .social-icon img {
+  -webkit-filter: invert(1);
+  filter: invert(1); }
+
 body, html {
   margin: 0;
   padding: 0; }
