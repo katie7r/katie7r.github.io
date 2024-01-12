@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-theme = "hugo-winston-theme"
+theme = "hugo-winston-theme-custom"
 themesDir = "themes"
 title = "Katie Linero"
 paginate = 3
