@@ -3,44 +3,38 @@ title: "About Me"
 url: "/me/"
 ---
 
-## Contra vagos
+## Me, Personally
 
-Lorem _markdownum notam si_ lintea meque certa [en meumque
-illis](#cohibentem-iuvenaliter), diu fatigant, nec praedae concustodita arcet.
-[Paviunt castris](#nemorisque-urimur-violentus) cur errat ventis causa! Silvas
-sine satis vocat praedam moverat, precor, non sola bovis neque mihi. Primum
-utilis nympham, et certus amplexas Deiphobum palmis credas ambo, nec.
+I'm a Florida native and current Austinite. I'm a mom (of two), a pet parent (to a cat and a dog), and a plant parent (with, frankly, an untenable number of botanical charges). I love words and wordplay. My favorite genre is fantasy, whether reading, watching, or gaming. I, like most people, enjoy music. I generally don't like having an internet presence, and I especially dislike writing "about me" content. 🙃
 
-> Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit
-> adfusique imis amplexus. Agmina per fabricator
-> mittere Erymanthon habetque tot.
+<aside>
 
-**Cineres Nile ipsa** origine discurrunt adest Unde, et quem clausus, imo,
-virens quoque tales, potuit. Ingentes insilit corpore nutricis praebebat roganti
-licuit. Denique a vestros adulantum in bella lina parte et arte generi di igitur
-quis, digitis pedes. Cum resonant tamen, namque in anxia. Non nostri trahens
-ancora.
+  ### Special Interests
+  - Video games (particularly CRPGs, tactical RPGs, cozy sim games, & clever puzzle games)<br />
+  - D&D (I'm currently playing a lore bard/battlesmith artificer rock gnome)<br />
+  - Amateur zoology, botany, & mycology (shoutout to [Seek](https://www.inaturalist.org/pages/seek_app) by [iNaturalist](https://www.inaturalist.org)!)<br />
+  - Genetics (especially animal color genetics, and _especially_ pigeons)<br />
 
-## Ducem oculos pallor tale quoque
+</aside>
 
-Pectora de Hebe veste mansit nemorisque oppugnare deos, interea eo calescit
-**invita insidiae** Amymonen, semper respiciens vocato, illis! Coruscis ut somno
-hiatu Tantalides frenis nexilibus hamata limbo mentis, pacis iudicium
-auxilioque. Genus dolori, me ira hae inpediunt tellus, nascendi Boreas!
-Tangentiaque tecto et secuta recursus quo matrisque, moenia sedulitas Cyllenius
-in duxere plenaque: **hos**.
+Ask me about any of the above at your own risk.
 
-1. Olim pulvere
-2. Verus ego ovantem mihi
-3. Tenuit erat semina superari
-4. Dabis natis hoc genu in quidem dumque
+## Me, Professionally
 
-Per tenuata [potiora](#inmeritae-discordemque-iterum) dedit caelo admota
-iniustus decipere do loca multa non parat. Ingratos his ut inde credite sensit
-sorte. Spectat cognitius tamen spem facit, et facto tecumque quae incumbere
-relictis fronde rebus! Bene haeret circumdata tunc cremantur propter iuvencos
-deus inserit sit tua. Pompa non precor procumbit inania lacrimas sacra credetis:
-Oceano, femina?
+Professionally, I'm a senior software engineer and have been working at [Cuttlesoft](https://cuttlesoft.com) since 2015. I work on and have experience with a wide range of platforms/stacks/frameworks/languages/tools; my bread and butter, though, is Ruby on Rails, which I've been working in since 2013.
 
-Bacchantum neque. Humum ut violasse quam inmotos! Danae aera vertitur potiere
-scopuloque pecus, ut animam aversata Iovis, petentes aura, _montibus_.
+<aside>
+
+  ### Special Interests
+
+  - User experience & interaction design
+  - Developer experience (especially reusable code, code generation, & finding reasonable excuses to get to use meta-programming)
+  - Gamification
+  - Simplifying complex code
+  - Well-organized code
+
+</aside>
+
+For more, check out my [work](/work) page.
+
+<!-- Check out my [work](/work) page for {...}, or, for a more complete reckoning of my work experience and skills, check out [my CV](/cv). -->
