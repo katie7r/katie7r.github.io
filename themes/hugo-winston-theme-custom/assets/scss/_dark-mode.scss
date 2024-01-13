@@ -15,7 +15,18 @@ body:not(.dark-mode) {
   }
 }
 
-#toggle-theme-mode svg {
-  height: 1.25em;
-  width: 1.25em;
+#toggle-theme-mode {
+  margin-bottom: -0.5em;
+  margin-right: 10px;
+
+  @include breakpoint('medium') {
+    margin-bottom: -0.25em;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  svg {
+    height: 1.25em;
+    width: 1.25em;
+  }
 }
