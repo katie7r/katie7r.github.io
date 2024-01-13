@@ -1,0 +1,21 @@
+.dark-mode {
+  .social-icon img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+
+  [data-theme-mode="dark"] {
+    display: none;
+  }
+}
+
+body:not(.dark-mode) {
+  [data-theme-mode="light"] {
+    display: none;
+  }
+}
+
+#toggle-theme-mode svg {
+  height: 1.25em;
+  width: 1.25em;
+}
