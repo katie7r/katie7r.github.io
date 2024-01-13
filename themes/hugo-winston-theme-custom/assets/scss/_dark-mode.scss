@@ -16,13 +16,13 @@ body:not(.dark-mode) {
 }
 
 #toggle-theme-mode {
-  margin-bottom: -0.5em;
   margin-right: 10px;
+  margin-bottom: -0.5em;
 
   @include breakpoint('medium') {
+    margin-right: 0;
     margin-bottom: -0.25em;
     margin-left: 10px;
-    margin-right: 0;
   }
 
   svg {
