@@ -13,6 +13,18 @@
         </a>
       </li>
       {{end}}
+      <li class="menu-item-theme-mode">
+        <a href id="toggle-theme-mode">
+          <span data-theme-mode="light">
+            <span class="hide-accessibly">Toggle light mode</span>
+            {{ readFile "static/images/sun.svg" | safeHTML }}
+          </span>
+          <span data-theme-mode="dark">
+            <span class="hide-accessibly">Toggle dark mode</span>
+            {{ readFile "static/images/moon.svg" | safeHTML }}
+          </span>
+        </a>
+      </li>
     </ul>
   </div>
   <div id="toggle-menu-main-mobile" class="hamburger-trigger">

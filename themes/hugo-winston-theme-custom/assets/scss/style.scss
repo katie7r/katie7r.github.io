@@ -17,11 +17,6 @@
   --text-color: {{ .Site.Params.baseOffsetColor | default "#4e5157" }};
 }
 
-.dark-mode .social-icon img {
-  -webkit-filter: invert(1);
-  filter: invert(1);
-}
-
 $breakpoints: (
   'small': 767px,
   'medium': 992px,
@@ -30,6 +25,7 @@ $breakpoints: (
 
 @import 'normalize';
 @import 'breakpoints';
+@import 'dark-mode';
 @import 'header';
 @import 'footer';
 @import 'content';
@@ -64,4 +60,14 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.hide-accessibly {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
