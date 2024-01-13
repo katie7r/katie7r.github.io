@@ -4,17 +4,19 @@
   --font-family-monospace: {{ .Site.Params.fontFamilyMonospace | default "monospace" }};
   --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
   --base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
+  --dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
   --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
   --heading-color: {{ .Site.Params.headingColor | default "#1c1b1d" }};
   --text-color: {{ .Site.Params.textColor | default "#4e5157" }};
-  --dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
 }
 
 .dark-mode {
-  --base-color: {{ .Site.Params.headingColor | default "#ffffff" }};
-  --base-offset-color: {{ .Site.Params.textColor | default "#eaeaea" }};
-  --heading-color: {{ .Site.Params.baseColor | default "#1c1b1d" }};
-  --text-color: {{ .Site.Params.baseOffsetColor | default "#4e5157" }};
+  --base-color: {{ .Site.Params.headingColor | default "#7b16ff" }};
+  --base-offset-color: {{ .Site.Params.textColor | default "#4e5157" }};
+  --dot-color: {{ .Site.Params.darkModeDotColor | default "#7b16ff" }};
+  --highlight-color: {{ .Site.Params.darkModeHighlightColor | default "#7b16ff" }};
+  --heading-color: {{ .Site.Params.baseColor | default "#ffffff" }};
+  --text-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
 }
 
 $breakpoints: (
