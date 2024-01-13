@@ -25,12 +25,14 @@ pygmentsUseClasses = true
   sortPostsByDateOldestFirst = false
   addDot = true
   addFrame = true
-  highlightColor = "#BADA55"
-  baseColor = "#FFFFFF"
+  baseColor = "#FAFAFA"
   baseOffsetColor = "#EAEAEA"
+  darkModeDotColor = "#BADA55"
+  darkModeHighlightColor = "#BADA55"
+  dotColor = "#604377"
+  highlightColor = "#604377"
   headingColor = "#1C1B1D"
   textColor = "#4E5157"
-  dotColor = "#BADA55"
   enableGoogleFonts = true
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code:wght@400;700&family=Yeseva+One:wght@400;700&display=swap"
   fontFamilyHeading = "Yeseva One"
