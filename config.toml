@@ -32,10 +32,10 @@ pygmentsUseClasses = true
   textColor = "#4E5157"
   dotColor = "#BADA55"
   enableGoogleFonts = true
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code:wght@400;700&family=Yeseva+One:wght@400;700&display=swap"
+  fontFamilyHeading = "Yeseva One"
+  fontFamilyParagraph = "Inter"
+  fontFamilyMonospace = "Fira Code"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
