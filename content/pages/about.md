@@ -13,7 +13,8 @@ I'm a Florida native and current Austinite. I'm a mom (of two), a pet parent (to
   - Video games (particularly CRPGs, tactical RPGs, cozy sim games, & clever puzzle games)<br />
   - D&D (I'm currently playing a lore bard/battlesmith artificer rock gnome)<br />
   - Amateur zoology, botany, & mycology (shoutout to [Seek](https://www.inaturalist.org/pages/seek_app) by [iNaturalist](https://www.inaturalist.org)!)<br />
-  - Genetics (especially animal color genetics, and _especially_ pigeons)<br />
+  - Evolution & genetics (especially animal color genetics, and _especially_ pigeons)<br />
+  - Behavioral psychology<br />
 
 </aside>
 
@@ -21,7 +22,7 @@ Ask me about any of the above at your own risk.
 
 ## Me, Professionally
 
-Professionally, I'm a senior software engineer and have been working at [Cuttlesoft](https://cuttlesoft.com) since 2015. I work on and have experience with a wide range of platforms/stacks/frameworks/languages/tools; my bread and butter, though, is Ruby on Rails, which I've been working in since 2013.
+Professionally, I'm a senior software engineer and have been working at [Cuttlesoft](https://cuttlesoft.com) since 2015. I use and have experience with a wide range of technologies; my bread and butter, though, is Ruby on Rails, which I've been working in since 2013.
 
 <aside>
 
