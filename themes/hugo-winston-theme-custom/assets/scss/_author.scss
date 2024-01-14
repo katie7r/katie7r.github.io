@@ -4,7 +4,7 @@
   margin-bottom: 30px;
   color: var(--heading-color);
 
-  img {
+  .author-image {
     flex: 0;
     align-self: center;
     margin-right: 10px;
@@ -17,7 +17,6 @@
   }
 
   .author-details {
-    flex: auto;
     align-self: center;
     height: 100%;
   }
@@ -37,7 +36,7 @@
 .author-large {
   font-size: 20px;
 
-  img {
+  .author-image {
     width: 50px;
     height: 50px;
   }
@@ -51,5 +50,23 @@
   .author-title {
     display: inline-block;
     vertical-align: middle;
+  }
+}
+
+.social-links {
+  align-self: center;
+  margin-left: 10px;
+  padding-top: 0.25em;
+}
+
+.social-icon {
+  a {
+    opacity: 0.5;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
   }
 }

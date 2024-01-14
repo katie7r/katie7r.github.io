@@ -1,0 +1,8 @@
+{{ range .Site.Data.social.links }}
+<span class="social-icon social-icon-{{ .name | urlize }}">
+  <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">
+    <span class="hide-accessibly">{{ .name }}</span>
+    {{ readFile .image | safeHTML }}
+  </a>
+</span>
+{{ end }}
