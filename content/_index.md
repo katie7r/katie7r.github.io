@@ -1,6 +1,6 @@
 ---
-title: The only way to begin is by beginning
+title: Hi, I'm Katie
 description: I've been here the whole time!
 ---
 
-The only way to learn is by playing, the only way to win is by learning, and the only way to begin is by beginning.
+I'm a programmer with a penchant for puns and a fondness for fun animal facts.
