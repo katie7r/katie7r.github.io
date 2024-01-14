@@ -25,11 +25,15 @@
   p {
     font-size: 20px;
     line-height: 26px;
+    margin-bottom: 50px;
     @include breakpoint('small') {
-      width: 80%;
       font-size: 22px;
       line-height: 32px;
     }
+  }
+  aside {
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
   .read-more {
     font-size: 20px;
@@ -43,15 +47,4 @@
   img {
     max-width: 100%;
   }
-  // img {
-  //   margin-right: -30px;
-  //   width: 100vw;
-  //   vertical-align: bottom;
-  //   @include breakpoint('small') {
-  //     margin-left: -100px;
-  //     margin-right: -100px;
-  //     margin-bottom: 50px;
-  //     width: auto;
-  //   }
-  // }
 }
