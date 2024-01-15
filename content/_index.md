@@ -1,6 +1,7 @@
 ---
 title: Hi, I'm Katie
 description: Katie Linero - Senior Software Engineer (Ruby on Rails)
+dot_char: "!"
 ---
 
 <!-- I'm a programmer with a penchant for puns and a fondness for fun animal facts. -->
