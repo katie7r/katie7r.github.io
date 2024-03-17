@@ -55,7 +55,12 @@ pygmentsUseClasses = true
     url = '/'
     weight = 1
   [[menu.main]]
+    name = "CV"
+    identifier = "cv"
+    weight = 2
+    url = "/cv/"
+  [[menu.main]]
     name = "&c"
     identifier = "etc"
-    weight = 2
+    weight = 3
     url = "/etc/"

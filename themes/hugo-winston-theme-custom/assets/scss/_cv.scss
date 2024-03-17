@@ -1,0 +1,54 @@
+.cv {
+  .cv-side {
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 1ex;
+  }
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 1ex;
+  }
+
+  p, ol li, ul li {
+    line-height: 1.4;
+  }
+
+  #contact + ul {
+    margin-left: 0;
+
+    li {
+      list-style: none;
+      margin-left: 0;
+      margin-bottom: 0.4em;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    svg {
+      height: 1em;
+      margin-bottom: -0.25em;
+    }
+  }
+
+  @include breakpoint('small') {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .cv-main {
+      flex: 1;
+      margin-right: 2.5em;
+    }
+
+    .cv-side {
+      flex: 0;
+      min-width: 25ex;
+    }
+  }
+
+}
