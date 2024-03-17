@@ -1,6 +1,20 @@
 .cv {
+  .cv-main {
+    order: 2;
+  }
+
   .cv-side {
     margin-bottom: 30px;
+    order: 1;
+
+    &.cv-edu {
+      display: block;
+      order: 3;
+    }
+
+    > .cv-edu {
+      display: none;
+    }
   }
 
   h3 {
@@ -38,17 +52,26 @@
 
   @include breakpoint('small') {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 
     .cv-main {
       flex: 1;
       margin-right: 2.5em;
+      order: 1;
     }
 
     .cv-side {
       flex: 0;
       min-width: 25ex;
+      order: 2;
+
+      &.cv-edu {
+        display: none;
+      }
+
+      > .cv-edu {
+        display: block;
+      }
     }
   }
-
 }

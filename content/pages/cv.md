@@ -17,19 +17,21 @@ url: "/cv/"
 
 #### Languages & Frameworks
 
-Ruby (Rails), <br />Python (Django, Flask), <br />JavaScript (jQuery, Vue.js, Ember.js, Angular/JS, React), <br />HTML (+preprocessors), <br />CSS (Sass/Scss)
+Ruby (Rails), JavaScript (jQuery, React, Vue.js, Ember.js, Angular/JS), Python (Django, Flask), HTML (+preprocessors), CSS (Sass/Scss)
 
 #### Tools & Software
 
-SQL (PostgreSQL, MySQL), command line, Git, GitHub, Notion, Postman, Jira/Atlassian suite
+SQL (PostgreSQL, MySQL), Git, GitHub, Jira/Atlassian suite, Notion, Postman, command line
 
 #### Platforms
 
 OSX, Linux, Windows, Docker, AWS, GCP, Heroku
 
-#### Paradigms & Processes
+#### Processes & Paradigms
 
-OOP, MVC, REST, TDD, Agile
+Agile, TDD, OOP, functional programming, MVC, REST
+
+<div class="cv-edu">
 
 ## Education
 
@@ -37,6 +39,8 @@ OOP, MVC, REST, TDD, Agile
 
 B.S. Psychology,
 Educational Studies & Zoology minors
+
+</div>
 
 </section>
 <section class="cv-main">
@@ -69,6 +73,18 @@ Educational Studies & Zoology minors
 - Responsibilities included: feature development, code review, bug resolution,
 technical and non-technical documentation, performance monitoring
 - Facilitated adoption at 10 institutions by coordinating with external teams and developing custom product integrations; reduced report requests, improved user experience, and systematized data collection by redesigning the user enrollment process; improved feedback and grading tools for end users by redesigning and automating delivery of user performance results; provided administrators greater control of site functionality and better insight into app usage by building internal administrative tools; improved stability and user experience for curriculum builders by redesigning the end user content customization interface.
+
+</section>
+
+<section class="cv-side cv-edu">
+<!-- I opted to do this the easy way instead of the right way; someday I'll just use flexbox the way it was intended. ¯\_(ツ)_/¯ -->
+
+## Education
+
+#### University of Florida, 2012
+
+B.S. Psychology,
+Educational Studies & Zoology minors
 
 </section>
 </article>
