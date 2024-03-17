@@ -1,0 +1,93 @@
+@media print {
+  // TODO: figure out how not to have to duplicate(/hard-code) colors and CV layout here
+
+  body.frame.page {
+    --base-color: #FAFAFA;
+    --base-offset-color: #EAEAEA;
+    --dot-color: #604377;
+    --highlight-color: #604377;
+    --heading-color: #1C1B1D;
+    --text-color: #4E5157;
+
+    border-left: 0;
+    border-right: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    .author {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+
+    .wrapper {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+    }
+
+    &.page-default-single .intro, .header, .social-links, .footer {
+      display: none;
+    }
+
+    .content {
+      &, p, ol li, ul li {
+        font-size: 16px;
+      }
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    h2, h3, h4 {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+
+    aside {
+      h3 {
+        margin-top: 30px;
+      }
+    }
+
+    .cv-side {
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Two-column layout styles duplicated from _cv
+  .cv {
+    display: flex;
+    flex-direction: row;
+
+    .cv-main {
+      flex: 1;
+      margin-right: 2.5em;
+      order: 1;
+    }
+
+    .cv-side {
+      flex: 0;
+      min-width: 25ex;
+      order: 2;
+
+      &.cv-edu {
+        display: none;
+      }
+
+      > .cv-edu {
+        display: block;
+      }
+    }
+  }
+}
