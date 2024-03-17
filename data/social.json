@@ -3,12 +3,12 @@
     {
       "name": "github",
       "url": "https://github.com/katie7r",
-      "image": "static/images/social/github.svg"
+      "image": "static/images/icons/github.svg"
     },
     {
       "name": "email",
       "url": "mailto:katie.k7r@gmail.com",
-      "image": "static/images/social/send.svg"
+      "image": "static/images/icons/send.svg"
     }
   ]
 }
