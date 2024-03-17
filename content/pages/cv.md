@@ -55,8 +55,8 @@ Educational Studies & Zoology minors
 
 - Fulfilled various roles across more than two dozen client projects over 8+ years: project lead, technical lead, software architect, individual contributor as full stack/backend/frontend engineer, product manager, project manager, and client support.
 - Supported team and team members’ development and growth through pair programming, code review, developer retrospectives, and internal knowledge sharing presentations.
-- Created both long-form and short-form content for the website, which became a significant driver of site traffic as well as community engagement.
-- Acted as company's "resident Ruby on Rails expert," including reviewing brownfield project codebases, assessing and selecting third-party gems for individual project and standard team use, architecting and planning new development, etc.
+- Created both long-form and short-form content for Cuttlesoft's website, which became a significant driver of site traffic as well as community engagement.
+- Acted as Cuttlesoft's "resident Ruby on Rails expert," including reviewing brownfield project codebases, assessing and selecting third-party gems for individual project and standard team use, architecting and planning new development, etc.
 
 **Selected client project examples:**
 

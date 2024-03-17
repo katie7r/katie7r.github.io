@@ -22,6 +22,7 @@
     font-size: 50px;
     line-height: 56px;
     @include breakpoint('small') {
+      margin-top: 50px;
       width: 80%;
     }
   }
@@ -36,7 +37,7 @@
   }
   aside {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .read-more {
     font-size: 20px;

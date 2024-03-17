@@ -20,7 +20,7 @@ I'm a senior software engineer at [Cuttlesoft](https://cuttlesoft.com), where I 
 
 </aside>
 
-<!-- For a more complete reckoning of my work experience and skills, check out [my CV](/cv). -->
+For a more complete reckoning of my work experience and skills, check out [my CV](/cv).
 
 ## About Me (Personally)
 
