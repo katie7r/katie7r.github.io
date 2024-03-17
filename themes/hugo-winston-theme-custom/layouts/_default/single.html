@@ -1,6 +1,11 @@
 {{ define "body_classes" }}page-default-single{{ end }}
 
 {{ define "main" }}
+
+  {{ if .Site.Params.showAuthorOnPages }}
+    {{ partial "author.html" . }}
+  {{ end }}
+
 <div class="intro">
   <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">{{ .Params.dot_char | default "." }}</span>{{ end }}</h1>
   {{ if .Params.image }}

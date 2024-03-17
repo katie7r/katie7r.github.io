@@ -8,7 +8,7 @@
 
   <div class="intro">
     <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">{{ .Params.dot_char | default "." }}</span>{{ end }}</h1>
-    {{ if .Site.Params.showIntroContentOnHomepage}}
+    {{ if .Site.Params.showIntroContentOnHomepage }}
       <div class="intro-content">{{ .Content }}</div>
     {{ end }}
   </div>
