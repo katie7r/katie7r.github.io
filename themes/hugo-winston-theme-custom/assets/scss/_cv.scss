@@ -6,15 +6,15 @@
   .cv-side {
     margin-bottom: 30px;
     order: 1;
+  }
 
-    &.cv-edu {
-      display: block;
-      order: 3;
-    }
+  .cv-edu-end {
+    display: block;
+    order: 3;
+  }
 
-    > .cv-edu {
-      display: none;
-    }
+  .cv-edu, .cv-edu-print {
+    display: none;
   }
 
   h3 {
@@ -38,6 +38,10 @@
       list-style: none;
       margin-left: 0;
       margin-bottom: 0.4em;
+
+      p {
+        margin-bottom: 0;
+      }
     }
 
     a {
@@ -64,14 +68,15 @@
       flex: 0;
       min-width: 25ex;
       order: 2;
+    }
 
-      &.cv-edu {
-        display: none;
-      }
+    .cv-edu-print, .cv-edu-end {
+      display: none;
+    }
 
-      > .cv-edu {
-        display: block;
-      }
+    .cv-edu {
+      display: block;
+      margin-top: 20px;
     }
   }
 }
