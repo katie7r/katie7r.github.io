@@ -10,7 +10,7 @@ dot_char: "!"
 
 ## About Me (Professionally)
 
-I'm a senior software engineer at [Cuttlesoft](https://cuttlesoft.com), where I have worked since 2015. I use and have experience with a wide range of technologies, but my bread and butter is Ruby on Rails, which I've been working in since 2013.
+I'm a senior software engineer at [Healthie](https://www.gethealthie.com/), where I have worked since 2024; prior to that, I worked at [Cuttlesoft](https://cuttlesoft.com) from 2015 to 2024. I use and have experience with a wide range of technologies, but my bread and butter is Ruby on Rails, which I've been working in since 2013.
 
 <aside>
 
@@ -30,7 +30,7 @@ I'm a mom (of two) with a cat, a dog, and a frankly untenable number of plants. 
 
   ### Special Interests
 
-  Video games (particularly CRPGs, tactical RPGs, cozy sim games, and clever puzzle games), D&D (I'm currently playing a lore bard/battlesmith artificer rock gnome), amateur zoology/botany/mycology (shoutout to [Seek](https://www.inaturalist.org/pages/seek_app) by [iNaturalist](https://www.inaturalist.org)!), evolution & genetics (especially animal color genetics, and _especially_ pigeons), and behavioral psychology
+  Video games (particularly CRPGs, tactical RPGs, cozy sim games, and clever puzzle games), D&D (I'm currently playing a lore bard/artificer rock gnome), amateur zoology/botany/mycology (shoutout to [Seek](https://www.inaturalist.org/pages/seek_app) by [iNaturalist](https://www.inaturalist.org)!), evolution & genetics (especially animal color genetics, and _especially_ pigeons), and behavioral psychology
 
 </aside>
 

@@ -71,7 +71,15 @@ url: "/cv/"
 
   ### Senior Software Engineer
 
-  #### Cuttlesoft (2015 - Present)
+  #### Healthie (2024 - Present)
+
+  *Healthie is an all-in-one practice management platform and EHR designed specifically for health and wellness providers and their clients.*
+
+  <!-- I'll populate this once I've had sufficient time in my new position to make some meaningful contributions at Healthie! -->
+
+  ### Senior Software Engineer
+
+  #### Cuttlesoft (2015 - 2024)
 
   *Cuttlesoft is a creative software development agency that emphasizes empathy in its approach to crafting quality code.*
 
