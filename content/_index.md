@@ -30,7 +30,16 @@ I'm a mom (of two) with a cat, a dog, and a frankly untenable number of plants. 
 
   ### Special Interests
 
-  Video games (particularly CRPGs, tactical RPGs, cozy sim games, and clever puzzle games), D&D (I'm currently playing a lore bard/artificer rock gnome), amateur zoology/botany/mycology (shoutout to [Seek](https://www.inaturalist.org/pages/seek_app) by [iNaturalist](https://www.inaturalist.org)!), evolution & genetics (especially animal color genetics, and _especially_ pigeons), and behavioral psychology
+  Video games (particularly CRPGs, tactical RPGs, cozy sim games, and clever puzzle games), D&D (I'm currently playing a
+  <span title="a launching lancer subclass from The Griffon's Saddlebag" aria-describedby="steel-hawk-description">
+    <span class="hide-accessibly" id="steel-hawk-description" role="tooltip">a launching lancer subclass from The Griffon's Saddlebag</span>
+    steel hawk
+  </span> fighter
+  <span title="a pigeon-folk species from Humblewood" aria-describedby="luma-description">
+    <span class="hide-accessibly" id="luma-description" role="tooltip">a pigeon-folk species from Humblewood</span>
+    luma
+  </span>
+  in one campaign and a cartographer artificer human in another), amateur zoology/botany/mycology (shoutout to [Seek](https://www.inaturalist.org/pages/seek_app) by [iNaturalist](https://www.inaturalist.org)!), evolution & genetics (especially animal color genetics, and _especially_ pigeons), and behavioral psychology
 
 </aside>
 
