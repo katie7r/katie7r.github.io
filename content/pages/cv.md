@@ -37,19 +37,23 @@ url: "/cv/"
 
   #### Languages & Frameworks
 
-  Ruby (Rails), JavaScript (jQuery, React, Vue.js, Ember.js, Angular/JS), Python (Django, Flask), HTML (+preprocessors), CSS (Sass/Scss, Less)
+  Ruby (Rails), JavaScript (React, jQuery, Vue.js, Ember.js, Angular/JS), GraphQL, Python (Django, Flask), HTML & CSS (+preprocessors)
 
   #### Tools & Software
 
-  SQL (PostgreSQL, MySQL), Git, GitHub, Jira/Atlassian suite, Notion, Postman, command line
+  SQL (PostgreSQL, MySQL), Git, GitHub, Notion, Jira/Atlassian suite, Postman, command line
 
   #### Platforms
 
-  OSX, Linux, Windows, Docker, AWS, GCP, Heroku
+  OSX, Linux, Windows, Docker, AWS
+
+  <!--
+  ...TBD whether I feel this section is still any use; all should probably be assumed after > 13 years, right?
 
   #### Processes & Paradigms
 
   Agile, TDD, OOP, functional programming, MVC, REST
+  -->
 
   </div>
 
@@ -75,7 +79,9 @@ url: "/cv/"
 
   *Healthie is an all-in-one practice management platform and EHR designed specifically for health and wellness providers and their clients.*
 
-  <!-- I'll populate this once I've had sufficient time in my new position to make some meaningful contributions at Healthie! -->
+  <!-- I prefer not to so readily publish the details of whatever position I'm currently in, but neither do I wish my CV to grow years out-of-date in the meantime; I've settled, instead of either, on updating details here but keeping them commented out while I remain in the role. -->
+
+  <!-- TODO: Update this. It's been two years, but I should probably do this annually so it's not so painful every time... -->
 
   ### Senior Software Engineer
 
